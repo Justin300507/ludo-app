@@ -1,0 +1,47 @@
+{
+  "decisions": [
+    {
+      "agent": "product_manager",
+      "decision": "product_spec_created",
+      "rationale": "Play classic Ludo with friends anywhere, anytime",
+      "data": {
+        "features": 7,
+        "user_stories": 7,
+        "must_have": [
+          "Real\u2011time Multiplayer Lobby",
+          "Ludo Game Engine",
+          "In\u2011game Chat"
+        ]
+      }
+    },
+    {
+      "agent": "architect",
+      "decision": "architecture_created",
+      "rationale": "27 endpoints across 7 files",
+      "data": {
+        "endpoints": 27
+      }
+    },
+    {
+      "agent": "tech_lead",
+      "decision": "constraints_set",
+      "rationale": "The proposed architecture captures the core data models and most CRUD endpoints, but it omits mandatory authentication routes, guest\u2011lobby creation wi",
+      "data": {
+        "critical_issues": 5,
+        "auth_endpoints": 18,
+        "pagination_required": 5
+      }
+    },
+    {
+      "agent": "orchestrator",
+      "decision": "pipeline_complete",
+      "rationale": "V6 score: 61/100",
+      "data": {
+        "total_time": 298.54,
+        "can_export": false
+      }
+    }
+  ],
+  "conflicts": [],
+  "shared_context_keys": []
+}
